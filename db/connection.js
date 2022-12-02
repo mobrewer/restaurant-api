@@ -1,9 +1,7 @@
 const mongoose = require('mongoose');
+require('dotenv').config()
 
-const mongoURI =
-    process.env.NODE_ENV === 'production'
-        ? process.env.MONGODB_URI
-        : 'mongodb://localhost/restaurant_db';
+const mongoURI = process.env.DATABASE_URL
 
 mongoose
     .connect(mongoURI)

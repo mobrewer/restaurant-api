@@ -12,7 +12,7 @@
         "description": "Taste something new at Puro Peru, the best restaurant in Sandy, UT, for authentic Peruvian cuisine. We bring the fiesta to our community with classic Peruvian dishes, live entertainment, and hard-to-beat prices. Whether you're in the mood for creamy chicken chili or smoky beef stew, our menu is packed with delicious and original recipes you won't want to miss out on. Let us make dinner tonight; take a trip to our Peruvian restaurant and give yourself a dining experience to remember.",
         "cuisine": "Peruvian",
         "takOut": true,
-        "priceRange": "3"
+        "priceRange": 3
     },
     {
         "name": "Life Alive",
@@ -34,6 +34,6 @@
         "cuisine": "American and European",
         "veganOptions": true,
         "takeOut": true,
-        "priceRange": "$$$"
+        "priceRange": 3
     }
 ]

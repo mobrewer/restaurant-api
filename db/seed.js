@@ -7,3 +7,13 @@ Restaurant.deleteMany({}).then(() => {
         process.exit()
     })
 })
+
+
+Restaurant.deleteMany()
+
+  .then(() => Restaurant.insertMany(restaurantData))
+
+  .then(console.log)
+  .catch(console.error)
+  .finally(process.exit);
+
