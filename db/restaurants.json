@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Aubergine",
+        "description": "Eat better, feel different. Aubergine Kitchen is a family-owned restaurant focused on making healthy eating easy, convenient, and sustainable.",
+        "cuisine": "Brazilian",
+        "veganOptions": true,
+        "takeOut": true,
+        "priceRange": "$$$"
+    }
+]
