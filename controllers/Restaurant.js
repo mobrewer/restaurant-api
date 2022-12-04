@@ -16,8 +16,7 @@ router.get('/', async (req, res, next) => {
 
 router.get('/:name', async (req, res, next) => {
     try {
-        const restaurant = await Restaurant.findOne(
-            { name: req.params.name})
+        const restaurant = await Restaurant.findOne({ name: { '$regex': req.params.name, $options: 'i' } })
         res.json(restaurant)
     } catch(err) {
         next(err)
@@ -36,20 +35,25 @@ router.post('/', async (req, res, next) => {
 })
 // put to make edits to a restaurant 
 
-// router.put('/:name', async (req, res, next) => {
-//     try {
-//         const updatedRestaurant = await Restaurant.findOneAndUpdate(
-//             { name: req.params.name.replace('%20', ' ')},
-//             { description: }
-//         )
-//     }
-// })
+router.put('/:name', async (req, res, next) => {
+    try {
+        const updatedRestaurant = await Restaurant.findOneAndUpdate(
+            { name: { '$regex': req.params.name, $options: 'i' }},
+            { $set: req.body},
+            { new: true}
+            
+        )
+            res.status(201).json(updatedRestaurant)
+         
+    } catch(err) {
+        next(err)
+    }
+})
 // delete restaurants
 
-router.delete('/:name', async (req, res, next) => {
+router.delete('/delete/:name', async (req, res, next) => {
     try {
-        const deleteRestaurant = await Restaurant.findOneAndDelete(
-            { name: req.params.name.reaplace('%20', ' ')})
+        const deleteRestaurant = await Restaurant.deleteOne({ name: { '$regex': req.params.name, $options: 'i' } })
             if(deleteRestaurant) {
                 res.sendStatus(204)
             } else {
