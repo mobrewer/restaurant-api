@@ -10,7 +10,7 @@ const restaurantController = require('./controllers/Restaurant')
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
-// app.use('/api/restaurants/', restaurantController)
+app.use('/api/restaurants/', restaurantController)
 
 app.get('/', (req, res) => {
     res.send('Hello world')
