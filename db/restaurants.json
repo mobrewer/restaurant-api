@@ -35,5 +35,21 @@
         "veganOptions": true,
         "takeOut": true,
         "priceRange": 3
+    },
+    {
+        "name": "Blue Lemon",
+        "description": "Made from scratch in our kitchen to your table, we make pure clean food with a twist! Our menu makes it easy to order delicious food to fuel your day. With our carefully crafted salads, artisan sandwiches, and delectable entrees we have something for everyone!",
+        "cuisine": "Express Gourmet",
+        "veganOptions": true,
+        "takeOut": true,
+        "priceRange": 1
+    },
+    {
+        "name": "Ruths Chris Steak House",
+        "description": "At Ruth's Chris, your last bite is just as good as your first. Our perfected broiling method and seasoning techniques ensure each cut of USDA Prime beef we serve arrives cooked to perfection and sizzling on a 500° plate—just the way Ruth liked it.",
+        "cuisine": "Mid-western",
+        "veganOptions": false,
+        "takeOut": false,
+        "priceRange": 4
     }
 ]
