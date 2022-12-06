@@ -51,5 +51,127 @@
         "veganOptions": false,
         "takeOut": false,
         "priceRange": 4
-    }
-]
+    },
+        
+     {
+            "name": "The Daily Paper",
+            "description": "We serve only the freshest local food. Our fish and produce all come from local purveyors.",
+            "cuisine": "Breakfast and Lunch",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 1
+        },
+        {
+            "name": "Top of the Hub",
+            "description": "Soaring 52 floors above the Back Bay, Top of the Hub’s award winning cuisine, service and ambiance of comfortable sophistication blend with the serenity of Boston’s best skyline views to deliver a truly one-of-a-kind dining experience.",
+            "cuisine": "Bunch, Lunch, Cocktails, Dinner",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 4
+        },
+        {
+            "name": "DiParma",
+            "description": "Easygoing, family-friendly Italian restaurant offering pizza, pasta & a large bar, plus delivery.",
+            "cuisine": "Italian restaurant",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 2
+        },
+        {
+            "name": "Texas Roadhouse",
+            "description": "Legendary Service® starts with taking no shortcuts. We take great pride in every plate we serve, every time.",
+            "cuisine": "Steak House",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 2
+        },
+        {
+            "name": "Olive Garden",
+            "description": "Olive Garden is an American casual dining restaurant chain specializing in Italian-American cuisine. ",
+            "cuisine": "Italian restaurant",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 2
+        },
+        {
+            "name": "99 Restaurants",
+            "description": "Our new menu is filled with favorites like the St. Louis BBQ Ribs, Sirloin & Seafood Trio Combo, Pork Carnitas Mac & Cheese and more.",
+            "cuisine": "New England Food",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 2
+        },
+        {
+            "name": "Sam Diego's",
+            "description": "Colorful restaurant with outdoor tables & a bar doling out tacos, quesadillas & other Mexican bites.",
+            "cuisine": "Mexican Cookery",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 2
+        },
+        {
+            "name": "Chipotle",
+            "description": "Chipotle Mexican Grill, Inc., often known simply as Chipotle, is an American chain of fast casual restaurants specializing in bowls, tacos and Mission burritos.",
+            "cuisine": "Mexican Food",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 1
+        },
+        {
+            "name": "Panera Bread",
+            "description": "Panera Bread Company is an American chain store of bakery-café",
+            "cuisine": "Bakery",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 2
+        },
+        {
+            "name": "Arby's",
+            "description": "Arby's is an American fast food sandwich restaurant",
+            "cuisine": "Sandwiches",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 1
+        },
+        {
+            "name": "IHOP",
+            "description": "IHOP is an American multinational pancake house restaurant chain that specializes in American breakfast foods.",
+            "cuisine": "Breakfast, Lunch, and Dinner.",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 1
+        },
+        {
+            "name": "TGI Friday's",
+            "description": "TGI Fridays is an American restaurant chain focusing on primarily American cuisine and casual dining.",
+            "cuisine": "American cuisine and casual dining.",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 2
+        },
+        {
+            "name": "Shake Shack",
+            "description": "Shake Shack is an American fast casual restaurant chain based in New York City.",
+            "cuisine": "Shakes and Burgers.",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 2
+        },
+        {
+            "name": "Ruby Tuesday",
+            "description": "Ruby Tuesday Inc. is an American multinational foodservice retailer that owns, operates, and franchises Ruby Tuesday restaurants.",
+            "cuisine": "Salad Bar",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 3
+        },
+        {
+            "name": "Sarku Japan",
+            "description": "Chain offering made-to-order teppanyaki-style Japanese dishes cooked on sizzling grills, plus sushi.",
+            "cuisine": "Japaneese Food",
+            "veganOptions": true,
+            "takeOut": true,
+            "priceRange": 1
+        }
+
+    ]
