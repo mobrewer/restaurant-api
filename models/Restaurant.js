@@ -6,7 +6,7 @@ const restaurantSchema = new Schema({
         type: String,
         required: true,
     },
-    descripton: String,
+    description: String,
     cuisine: String,
     veganOptions: Boolean,
     takeOut: Boolean,
